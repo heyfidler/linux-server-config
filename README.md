@@ -4,7 +4,7 @@
 - user: grader
 - server IP address: 35.182.190.182
 - ssh port: 2200
-- app URL: http://35.182.190.182
+- app URL: http://ec2-35-182-190-182.ca-central-1.compute.amazonaws.com
 
 ## installed software
 - apache2
@@ -12,8 +12,10 @@
 - sqlalchemy
 - flask
 - oauth2client
+- postgreSQL
 
 ## changes
+- updated packages
 - add user 'grader' 
 - give sudo privledges to 'grader'
 - change ssh port to 2200
